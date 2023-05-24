@@ -80,6 +80,24 @@ textarea{
     margin-top: 0.2em;
 }
 
+@media screen and (max-width:728px){
+   .button-info-area{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+   }
+   .process-button{
+    width: 100%;
+}
+
+.stat-block{
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.7em 1em;
+}
+   
+}
+
 @media screen and (max-width:1135px) {
     main{
         padding: 0em 1.2em;

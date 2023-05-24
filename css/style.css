@@ -4,4 +4,84 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    background-color: #fffdf9;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1135px;
+    padding-bottom: 2em;
+}
+
+h1{
+    font-size: 4.375rem;
+    font-weight: 700;
+    margin: 0.5em;
+}
+
+textarea{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #FFE6E4;
+    width: 100%;
+    min-height: 400px;
+    resize: none;
+    padding-top: 2em;
+    padding-left:2em;
+    border-radius: 1em;
+    border: none;
+    font-weight: 500;
+    font-size: 1.875rem;
+}
+
+.stat-block{
+    background-color: #FFC997;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 29%;
+    border-radius: 0.5em;
+}
+
+.button-info-area{
+    margin-top: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.process-button{
+    background-color: #87DF9A;
+    padding: 0.7em 1em;
+    width: 38.8%;
+    font-weight: 700;
+    font-size: 2.5rem;
+    border-radius: 0.2em;
+    border: none;
+}
+
+.large-num{
+    font-size: 2.813rem;
+}
+
+.card-title{
+    font-size: 1.375rem;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+
+@media screen and (max-width:1135px) {
+    main{
+        padding: 0em 1.2em;
+    }
 }

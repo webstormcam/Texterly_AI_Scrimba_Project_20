@@ -11,7 +11,7 @@ processButton.addEventListener('click',function(){
         },
         body: JSON.stringify({
             model:"text-davinci-edit-001",
-            temperature:0.5,
+            temperature:0.8,
             input: textArea.value,
             instruction: "Fix the spelling mistakes",
         })
